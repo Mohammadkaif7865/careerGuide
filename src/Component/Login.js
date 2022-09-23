@@ -32,7 +32,8 @@ class Login extends Component {
             if(data.auth === false){
                 this.setState({message:data.token})
             }else{
-                sessionStorage.setItem('x-access-token',data.token)
+                sessionStorage.setItem('x-access-token',data.token);
+                this.props.history.push('/userInfo')
             }
         })
     }

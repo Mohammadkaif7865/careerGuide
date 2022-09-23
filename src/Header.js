@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-function Header() {
+
+function Header(props) {
+    function logout() {
+        sessionStorage.clear();
+        props.setName("");
+        props.history.push("/");
+    }
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,8 +40,15 @@ function Header() {
 
                         </ul>
                         <div class="d-flex">
-                            <Link to='/login'>     <p className='login'>Login</p></Link>
-                            <Link to="/register"><p className='login'>Register</p></Link>
+                            {
+                                props.name ? <Link to='/userInfo'>     <p className='login'>Hi {props.name}</p></Link> : <Link to='/login'>     <p className='login'>Login</p></Link>
+                            }
+
+                            {
+                                props.name ? <Link to="/" className="n-u-i" onClick={logout}>
+                                    <p>LogOut</p>
+                                </Link> : <Link to="/register"><p className='login'>Register</p></Link>
+                            }
                         </div>
                     </div>
                 </div>
