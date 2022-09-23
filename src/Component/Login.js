@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { withRouter } from 'react-router-dom';
 
 const url = "https://authmdkaif.herokuapp.com/api/auth/login";
 
@@ -69,4 +70,4 @@ class Login extends Component {
     }
 }
 
-export default Login;
+export default withRouter(Login);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link,withRouter } from "react-router-dom";
 
 function Header(props) {
     function logout() {
@@ -39,13 +39,13 @@ function Header(props) {
                             </li>
 
                         </ul>
-                        <div class="d-flex">
+                        <div className="d-flex">
                             {
                                 props.name ? <Link to='/userInfo'>     <p className='login'>Hi {props.name}</p></Link> : <Link to='/login'>     <p className='login'>Login</p></Link>
                             }
 
                             {
-                                props.name ? <Link to="/" className="n-u-i" onClick={logout}>
+                                props.name ? <Link to="/" className='login' onClick={logout}>
                                     <p>LogOut</p>
                                 </Link> : <Link to="/register"><p className='login'>Register</p></Link>
                             }
@@ -56,4 +56,4 @@ function Header(props) {
         </>
     )
 }
-export default Header;
+export default withRouter(Header);

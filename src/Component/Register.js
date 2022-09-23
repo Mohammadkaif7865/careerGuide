@@ -21,7 +21,6 @@ class Register extends Component {
     }
 
     handleSubmit = () => {
-        console.log(this.props);
         fetch(url, {
             method: 'POST',
             headers: {

@@ -11,30 +11,30 @@ function Home() {
                     <b>Student's Choice Awards</b> - Inspirational Education Institute of the year
                     <button className='btn btn-light' style={{ marginLeft: "5px" }}>Vote now</button>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://i.postimg.cc/pTLw91ZG/11-12.jpg" class="d-block w-100" alt="..." />
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src="https://i.postimg.cc/pTLw91ZG/11-12.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                            <img src="https://i.postimg.cc/kXbktSQm/cllg.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                            <img src="https://i.postimg.cc/kXbktSQm/cllg.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                            <img src="https://i.postimg.cc/mgwRtM4r/Career-Counselling.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                            <img src="https://i.postimg.cc/mgwRtM4r/Career-Counselling.jpg" className="d-block w-100" alt="..." />
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
                 <div className="circlePics">
@@ -95,60 +95,60 @@ function Home() {
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
                     <div className="card">
                         <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="course" />
                         <h5 className='text-center'>IDEAL CAREER TEST™</h5>
-                        <p > <i class="bi bi-journal"></i> 180 Questions
+                        <p > <i className="bi bi-journal"></i> 180 Questions
 
                         </p>
-                        <p ><i class="bi bi-alarm-fill"></i> 60 Minutes</p>
+                        <p ><i className="bi bi-alarm-fill"></i> 60 Minutes</p>
                         <p >₹ 2000</p>
                         <button className='btn btn-danger'>For all The age group</button>
                     </div>
