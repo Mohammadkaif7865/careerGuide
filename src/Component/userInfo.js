@@ -39,7 +39,7 @@ function UserInfo(props) {
                             <div> <b>Phone Number</b> : {user.phone}</div>
                             <div> <b>Email</b> : {user.email}</div>
                         </div>
-                        <div className="panel-footer"> <button onClick={() => props.history.go(-2)} className="btn btn-success">Go back</button>
+                        <div className="panel-footer"> <button onClick={() => props.history.push("/")} className="btn btn-success">Go back</button>
                             <div style={{ textAlign: 'center' }}>
                                 <small>Your info security and <u>privacy</u> is our top priority and we are compeletely <u>responsible</u> for any data breach</small>
                             </div>
